@@ -28,11 +28,26 @@
   margin-left: 18vw;
 }
 
-.pokeImg {
+.hidePokeImg {
+  width: 500px;
+  filter: brightness(10%);
+}
+
+.revealPokeImg {
   width: 500px;
 }
 
-.pokeName {
+/* .pokeName {
+  font-family: 'Press Start 2P', cursive;
+  text-transform: uppercase;
+  margin-top: -50px;
+} */
+
+.hidePokeName {
+  display: none;
+}
+
+.revealPokeName {
   font-family: 'Press Start 2P', cursive;
   text-transform: uppercase;
   margin-top: -50px;
